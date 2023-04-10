@@ -8,10 +8,10 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class CheckFormTest extends TesyBase {
+public class CheckFormTest extends TestBase {
 
     @Test
-    void FirstTest() {
+    void firstTest() {
         open ("/automation-practice-form");
 
         // отключить рекламу
